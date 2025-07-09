@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "price": 99.99,
+    "image": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&w=400&q=80",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "description": "Water-resistant smart watch with multiple sport modes.",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=400&q=80",
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with deep bass and long battery life.",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=400&q=80",
+    "stock": 20
+  },
+  {
+    "id": 4,
+    "name": "Fitness Tracker",
+    "description": "Track your daily activity and sleep patterns.",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    "stock": 25
+  },
+  {
+    "id": 5,
+    "name": "E-Reader",
+    "description": "Lightweight e-reader with a glare-free display.",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    "stock": 8
+  }
+]
