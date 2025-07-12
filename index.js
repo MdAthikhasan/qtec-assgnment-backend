@@ -1,12 +1,14 @@
-const express = require("express");
-const cors = require("cors");
-const mongoose = require("mongoose");
+import cors from "cors";
+import dotenv from "dotenv";
+import express from "express";
+import mongoose from "mongoose";
+dotenv.config();
+
+import productRoutes from "./routes/productRoutes.js";
 
 const app = express();
 
 const PORT = process.env.PORT || 5000;
-
-const productRoutes = require("./routes/productRoutes");
 
 app.use(cors());
 app.use(express.json());
@@ -15,13 +17,7 @@ app.use("/api", productRoutes);
 // MongoDB connection
 mongoose
   .connect(
-    process.env.MONGODB_URI || "mongodb://localhost:27017/qtec_assignment",
-    // {
-    //   useNewUrlParser: true,
-    //   useUnifiedTopology: true,
-    // }
-
-
+    process.env.MONGODB_URI || "mongodb://localhost:27017/qtec_assignment"
   )
   .then(() => {
     console.log("Connected to MongoDB");
